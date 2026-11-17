@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+outputs/
+data/
+datasets/
+.cache/
+*.log
+.DS_Store
+yolov8*.pt

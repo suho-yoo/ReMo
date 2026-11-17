@@ -1,0 +1,28 @@
+Out of Sight, Still in Mind: Token Compression for Omni-LLMs (ReMo)
+Copyright 2026 the ReMo authors.
+
+model/modeling_qwen2_5_omni.py subclasses Qwen2.5-Omni from Hugging Face
+Transformers (the Qwen team, Alibaba Group, and Hugging Face contributors;
+Apache-2.0). No Transformers source is copied. Pretrained model weights retain
+their upstream license.
+
+Object masks are computed with Ultralytics YOLO (https://github.com/ultralytics/ultralytics),
+AGPL-3.0, installed separately as a runtime dependency and not included here.
+
+json/worldsense.json contains WorldSense annotations
+(https://github.com/JaaackHongggg/WorldSense) in conversation format with
+sample IDs and relative media paths.
+
+json/dailyomni.json contains converted Daily-Omni annotations by Ziwei Zhou,
+Rui Wang, Zuxuan Wu, and Yu-Gang Jiang. Changes: conversation-format conversion,
+sample IDs, and relative media paths.
+Source: https://huggingface.co/datasets/liarliar/Daily-Omni
+License: CC BY-NC-SA 4.0
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+calibration/3b and calibration/7b contain projections and embedding means
+computed from VGGSound clips (https://www.robots.ox.ac.uk/~vgg/data/vggsound/).
+No video/audio media are included.
+
+Dataset annotations and media remain subject to their original terms.
+The software license does not relicense third-party datasets or model weights.
